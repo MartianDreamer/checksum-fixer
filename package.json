@@ -9,7 +9,6 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -36,5 +35,10 @@
     "eslint": "^9.39.3",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.56.1"
-  }
+  },
+  "repository": {
+    "url": "https://github.com/MartianDreamer/checksum-fixer"
+  },
+  "publisher": "martiandreamer",
+  "icon": "icon.png"
 }
